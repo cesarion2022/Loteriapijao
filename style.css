@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #800000; /* Fondo vinotinto */
+    font-family: Arial, sans-serif;
+    color: #FFD700; /* Texto dorado */
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background-color: #FFD700; /* Fondo dorado */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #800000; /* Texto vinotinto dentro del contenedor */
+}
+
+h1, h2, h3 {
+    color: #800000; /* Texto vinotinto */
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.number {
+    background-color: #800000; /* Fondo vinotinto */
+    color: #FFD700; /* Texto dorado */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.number.selected {
+    background-color: #FFD700; /* Fondo dorado */
+    color: #800000; /* Texto vinotinto */
+}
+
+form {
+    background-color: #FFFFFF; /* Fondo blanco */
+    color: #800000; /* Texto vinotinto */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #800000;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #800000; /* Botón vinotinto */
+    color: #FFD700; /* Texto dorado */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #660000; /* Botón vinotinto más oscuro */
+}
+
+.whatsapp-link {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #25D366; /* Verde WhatsApp */
+    color: #FFFFFF; /* Texto blanco */
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whatsapp-link:hover {
+    background-color: #128C7E; /* Verde WhatsApp más oscuro */
+}
+
